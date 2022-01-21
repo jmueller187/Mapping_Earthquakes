@@ -34,31 +34,9 @@ L.control.layers(baseMaps).addTo(map);
 // Accessing the Toronto neighborhoods GeoJSON URL.
 let earthquakeData = "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_week.geojson"
 
-// // Create a style for the lines.
-// let myStyle = {
-//   color: "blue",
-//   fillColor: "yellow",
-//   fillOpacity: 0.2,
-//   weight: 1
-// }
-
 // Retrieve the earthquake GeoJSON data.
 d3.json(earthquakeData).then(function(data) {
   console.log(data);
 // Creating a GeoJSON layer with the retrieved data.
 L.geoJson(data).addTo(map);
 });
-
-
-// // Retrieve the earthquake GeoJSON data.
-// d3.json(earthquakeData).then(function(data) {
-//   console.log(data);
-// // Creating a GeoJSON layer with the retrieved data with onEachFeature.
-// L.geoJson(data, {
-//   style: myStyle,
-//   onEachFeature: function(feature, layer) {
-//     console.log(layer);
-//     layer.bindPopup("<h3> Neighborhood: " + feature.properties.AREA_NAME + "</h3>");
-//     } 
-//   }).addTo(map);
-// });

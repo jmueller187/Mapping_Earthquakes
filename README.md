@@ -7,7 +7,7 @@ The purpose of this analysis was to create an interactive web page to display ea
 - Select three different data layers - all earthquakes, tectonic plates and major earthquakes with magnitudes greater than 4.5
 - Select a circle on the map to display that earthquake's location and magnitude
 
-Sample views of our interactive maps: 
-[Street View](https://github.com/jmueller187/Mapping_Earthquakes/blob/main/Resources/EarthquakeResultsMap.png)
-[Satellite View]()
-[Dark Mode View]()
+Sample views of the interactive maps: <br>
+[Street View](https://github.com/jmueller187/Mapping_Earthquakes/blob/main/Resources/EarthquakeResultsMapStreetsView.png)<br>
+[Satellite View](https://github.com/jmueller187/Mapping_Earthquakes/blob/main/Resources/EarthquakeResultsMapSatelliteView.png)<br>
+[Dark Mode View](https://github.com/jmueller187/Mapping_Earthquakes/blob/main/Resources/EarthquakeResultsMapDarkModeView.png)<br>
